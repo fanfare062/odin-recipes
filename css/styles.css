@@ -1,0 +1,19 @@
+h1 {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p, ul, ol {
+    font-size: 1.5em;
+}
+.pumpkin{
+    background-color: darkorange;
+}
