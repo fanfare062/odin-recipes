@@ -1,8 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+
+
 h1 {
     background-color: darkred;
     color: white;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 60px;
 }
 
 img {
@@ -13,7 +31,26 @@ img {
 
 p, ul, ol {
     font-size: 1.5em;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .pumpkin{
     background-color: darkorange;
 }
+
+.home_title {
+    background-color: coral;
+    text-align: center;
+}
+
+.recipe_ul {
+    display: flex;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.recipe_ul > li {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 9px;
+} 
